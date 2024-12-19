@@ -93,7 +93,7 @@ export default function Country() {
         </Link>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-4">
-        <div className="flex items-center md:max-w-[400px]">
+        <div className="flex items-center md:max-w-[400px] bg-slate-200 p-4">
           <Image
             src={flag || "/flag-placeholder.svg"}
             alt={`Flag of ${countryName}`}
